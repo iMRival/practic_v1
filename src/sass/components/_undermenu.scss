@@ -1,0 +1,51 @@
+.undermenu{
+	max-width: 1000px;
+	display: flex;
+	height: 110px;
+	background-color: #f4f8f9;
+	border-radius: 0 0 5px 5px;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.undermenu-items{
+	display: flex;
+	max-width: 1000px;
+	align-items: center;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.undermenu-aviaexpress{
+	margin-right: 24px;
+}
+
+.undermenu-aviaexpress li{
+	list-style-type: none;
+	color: #4095c9;
+}
+
+.undermenu-logo{
+	margin-right: 44px;
+}
+
+.undermenu-description{
+	font-size: 11px;
+	color: #666666;
+}
+
+.undermenu-description{
+	margin-right: 34px;
+}
+
+.undermenu-reference li{
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.undermenu-reference .number{
+	color: #2f4960;
+}
