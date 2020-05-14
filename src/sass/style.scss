@@ -1,0 +1,18 @@
+
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/reboot";
+
+@import "node_modules/bootstrap/scss/grid";
+@import "node_modules/bootstrap/scss/utilities/flex";
+@import "node_modules/bootstrap/scss/utilities/float";
+@import "node_modules/bootstrap/scss/utilities/clearfix";
+
+@import "components/_common.scss";
+@import "components/_header.scss";
+@import "components/_undermenu.scss";
+@import "components/_content.scss";
+@import "components/_reservationmenu.scss";
+@import "components/_rmenu.scss";
+@import "components/_footer.scss";

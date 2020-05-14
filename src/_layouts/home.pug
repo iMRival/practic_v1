@@ -1,0 +1,17 @@
+doctype html
+html
+	head
+		title=practic
+		meta(charset="utf-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1")
+		link(rel="stylesheet" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css")
+		link(rel="stylesheet" href="css/all.css")
+	body
+		include ../_partials/header
+		include ../_partials/undermenu
+		block content
+		include ../_partials/footer
+
+	script(src="https://code.jquery.com/jquery-3.5.1.min.js")
+	script(src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js")
+	script(src="js/all.js")
